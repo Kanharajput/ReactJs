@@ -5,3 +5,7 @@
 - Component : It is a part of a whole web page. A web page contains my components like header, footer, forms, about etc,
     like here App.js is an component, which is rendered by index.js
     We can code a component using jsx which syntax are similar to html and it is converted to html by bable at a time of rendering
+
+- Dynamic values in template : We can create variable in jsx and get the value of them using jinja format like we do in   
+    django.   
+    We can't assign boolean and objects values.
