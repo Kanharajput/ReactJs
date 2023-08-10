@@ -22,3 +22,5 @@
 - Use state hook : It contains two values, one is used to showcase before changing the state and other one is used after 
     changing the state. The variable which are created with useState, react remember then and any updation is made in that 
     variable will lead react to render the page again with new data.
+
+- Browsers has the extension(React Developer tool). Extension help to distinguish component and their code.
