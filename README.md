@@ -9,3 +9,6 @@
 - Dynamic values in template : We can create variable in jsx and get the value of them using jinja format like we do in   
     django.   
     We can't assign boolean and objects values.
+
+- Multiple Component : Create mulitple component but all the components are the child component of the App.js(It's the root 
+    component).

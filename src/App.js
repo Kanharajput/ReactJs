@@ -1,15 +1,12 @@
 import './App.css';
+import Navbar from './Navbar'
+import Home from './Home'
 
 function App() {
-  // create a variable
-  const name = "kanha tomar";
-  // list items are typed to string and merged to create a single string
-  const list = [1,2,2,5,45];
   return (
     <div className="App">
-      <h1>{ name }</h1>
-      <h1>{list}</h1>     
-      <h1>{Math.random()}</h1>     
+      <Navbar />   
+      <Home />
     </div>
   );
 }
