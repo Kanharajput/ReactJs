@@ -24,3 +24,5 @@
     variable will lead react to render the page again with new data.
 
 - Browsers has the extension(React Developer tool). Extension help to distinguish component and their code.
+- Outputting list : It is like outputting the list in django we got an dictionary and via django template language , we 
+    extract list and it's items.
