@@ -18,3 +18,7 @@
     inline css is like <h1 style={{color: green}}></h1> , outer {} is for dynamic value, inside {} denote the object in js.
 
 - Events : Necessary to create an arrow function, and inside it call the function with arguement, can't do it directly.
+
+- Use state hook : It contains two values, one is used to showcase before changing the state and other one is used after 
+    changing the state. The variable which are created with useState, react remember then and any updation is made in that 
+    variable will lead react to render the page again with new data.

@@ -1,3 +1,5 @@
+import {useState} from 'react';
+
 function Home(){
     // handling the events
     const handleClick = () => {
@@ -8,10 +10,22 @@ function Home(){
         console.log(name + " Enough, I can't congratulate you anymore")
     }
 
+    // useState to change name when clicked
+    // default value of name is Kanha
+    const [name, setName] = useState('Kanha');
+
+    // useState function, name changed after click
+    const changeName = () => {
+        setName('Krishna');
+    }
+
     return (
         <div className="Home">
             <button onClick={handleClick}>Click me</button>
             <button onClick={(e) => handleClickAgain("kanha",e)}>Hug me</button>
+
+            {name}
+            <button onClick={changeName}>Change Name</button>
         </div>
     );
 }
