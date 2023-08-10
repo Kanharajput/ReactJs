@@ -12,3 +12,7 @@
 
 - Multiple Component : Create mulitple component but all the components are the child component of the App.js(It's the root 
     component).
+
+- CSS : Simply we can write all the css in App.css and also create different stylesheet for each component but for small
+    project single stylesheet is enough.
+    inline css is like <h1 style={{color: green}}></h1> , outer {} is for dynamic value, inside {} denote the object in js.
