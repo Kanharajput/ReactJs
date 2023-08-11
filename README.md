@@ -38,5 +38,8 @@
     which actually has the data, so we use function to return an id of the blog which we want to delete to the data
     containing component.
 
-- useEffects hook : It's a hook which run when somethings render or it runs each time when anything renders. Don't write
-    useState inside useEffects otherwise it will be stuck in endless loop.
+- useEffect hook : It's a hook which run when somethings render or it runs each time when anything renders. Don't write
+    useState inside useEffect otherwise it will be stuck in endless loop.
+    - useEffect dependencies : second arguement inside the useEffect function is denote the dependencies like empty list []
+        specifies that only run useEffect function only ones when the initial rendering is done.
+        pass useState variable name inside this [] so useEffect run when they triggered.
