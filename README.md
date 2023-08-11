@@ -30,3 +30,5 @@
 
 - Props : Theseare used to send data from one component to other. Here we send blogs data from List component to 
     PropsExample components.
+
+- filter pros to send only specific items.
