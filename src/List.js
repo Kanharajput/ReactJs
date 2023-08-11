@@ -7,11 +7,16 @@ function List(){
         {title: 'Dal batti', body: 'Achi lagti hai', id: 2},
         {title: 'title', body: 'Kharab hai', id: 3}
     ]);
+
+    const handleDelete = (id) => {
+        const new_blogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(new_blogs);
+    }
+
     return(
-        <div className="list">
+        <div className="list">  
             <h1>List</h1>
-            <ProsExample blogs={blogs}/>     
-            <ProsExample blogs={blogs.filter((blog) => blog.title == "title")}/>     
+            <ProsExample blogs={blogs} handleDelete={handleDelete} />     
         </div>
     );
 }

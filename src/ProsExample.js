@@ -1,5 +1,4 @@
-function ProsExample(props){
-    const blogs = props.blogs;
+function ProsExample({blogs,handleDelete}){
 
     return(
         <div className="display-items">
@@ -8,6 +7,7 @@ function ProsExample(props){
                 <div className="blog-preview" key={blog.id}>
                     <h2>{blog.title}</h2>
                     <p>{blog.body}</p>
+                    <button onClick={() => handleDelete(blog.id)}>Delete</button>
                 </div>
             ))}
         </div>

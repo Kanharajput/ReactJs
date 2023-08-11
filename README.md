@@ -32,3 +32,8 @@
     PropsExample components.
 
 - filter pros to send only specific items.
+
+- Delete an item from the list, here we are just using useState to pass a new blogs list which doesn't contain the one
+    which was marked by user to delete. Also we are using props then we have perform delete operation in the component
+    which actually has the data, so we use function to return an id of the blog which we want to delete to the data
+    containing component.
