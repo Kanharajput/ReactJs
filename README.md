@@ -50,3 +50,5 @@
 - get the data from the server using fetch method
 - Condition loading message when it takes more time to load data from the server, Here used setTimeout method to get extra time
     for wait so that we can check the loading message.
+
+- Handling fetch the errors 
