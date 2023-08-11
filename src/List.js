@@ -2,37 +2,24 @@ import { useState, useEffect } from 'react';
 import ProsExample from './ProsExample'
 
 function List(){
-    const [blogs, setBlogs] = useState([
-        {title: 'title', body: 'kamina hota hai', id: 1},
-        {title: 'Dal batti', body: 'Achi lagti hai', id: 2},
-        {title: 'title', body: 'Kharab hai', id: 3}
-    ]);
+    // get the blogs data from json server
+    const [blogs, setBlogs] = useState(null);
 
-    const [name, setName] = useState("Kanha")
-
-    const handleDelete = (id) => {
-        const new_blogs = blogs.filter(blog => blog.id !== id);
-        setBlogs(new_blogs);
-    }
-
-    // run everytime when somethings reder
+    // run everytime when somethings render
     useEffect(() => {
-        console.log("Initial and when name change state useEffect triggered");
-        console.log({name})
-    }, [name]);
-
-    const changeName = () => {
-        setName("Krishna");
-    }
+        fetch("http://localhost:8000/blogs")
+        .then(res => {
+            return res.json()
+        })
+        .then(data => {
+            setBlogs(data)
+        });
+    }, []);
 
     return( 
         <div className="list">
             <h1>List</h1>
-            <ProsExample blogs={blogs} handleDelete={handleDelete}/>
-            <div className="name-class">
-                <h2>{name}</h2>
-                <button onClick={changeName}>Change Name</button>
-            </div>
+            {blogs && <ProsExample blogs={blogs}/>}
         </div>
     );
 }

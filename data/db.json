@@ -1,0 +1,19 @@
+{
+    "blogs" : [
+        {
+            "title" : "kanha Tomar",
+            "body" : "He is good guy",
+            "id" : 1
+        },
+        {
+            "title" : "kanha Tomar",
+            "body" : "He is good guy",
+            "id" : 2
+        },
+        {
+            "title" : "kanha Tomar",
+            "body" : "He is good guy",
+            "id" : 3
+        }
+    ]
+}

@@ -43,3 +43,8 @@
     - useEffect dependencies : second arguement inside the useEffect function is denote the dependencies like empty list []
         specifies that only run useEffect function only ones when the initial rendering is done.
         pass useState variable name inside this [] so useEffect run when they triggered.
+
+- create data folder and db.json file to put data inside it and create a dummy server use this command "npx json-server
+    watch data/db.json --port 8000" now we will get the data from this dummy server.
+
+- get the data from the server using fetch method
