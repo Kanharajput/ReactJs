@@ -3,6 +3,8 @@
 .App{
   font-family: 'Fjalla One', sans-serif;
   color: #E35F89;
+  width: 768px;
+  margin: 0 auto;
 }
 
 .nav{
@@ -30,3 +32,18 @@
   text-transform: uppercase;
   font-size: 1.2rem;
 } 
+
+h1{
+  color: black;
+}
+
+h2{
+  color: red;
+  line-height: 0.1rem;
+  margin-left: 1rem;
+}
+
+p{
+  color: green;
+  margin-left: 2rem;
+}

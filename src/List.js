@@ -10,7 +10,7 @@ function List(){
     return(
         <div className="list">
             <h1>List</h1>
-            <ProsExample blogs={blogs}/>    
+            <ProsExample blogs={blogs}/>     
         </div>
     );
 }
