@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ProsExample from './ProsExample'
 
 function List(){
@@ -12,6 +12,12 @@ function List(){
         const new_blogs = blogs.filter(blog => blog.id !== id);
         setBlogs(new_blogs);
     }
+
+    // run everytime when somethings reder
+    useEffect(() => {
+        console.log("something changed on the page")
+        console.log(blogs)
+    });
 
     return(
         <div className="list">  

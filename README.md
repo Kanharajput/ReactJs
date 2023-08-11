@@ -37,3 +37,6 @@
     which was marked by user to delete. Also we are using props then we have perform delete operation in the component
     which actually has the data, so we use function to return an id of the blog which we want to delete to the data
     containing component.
+
+- useEffects hook : It's a hook which run when somethings render or it runs each time when anything renders. Don't write
+    useState inside useEffects otherwise it will be stuck in endless loop.
