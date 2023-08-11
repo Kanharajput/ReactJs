@@ -52,3 +52,5 @@
     for wait so that we can check the loading message.
 
 - Handling fetch the errors 
+
+- Create custom hooks, it's like putting everything in single file and then extract the things which we want in componene.
