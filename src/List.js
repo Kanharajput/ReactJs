@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ProsExample from './ProsExample'
 
 function List(){
     const [blogs, setBlogs] = useState([
@@ -6,15 +7,10 @@ function List(){
         {title: 'Dal batti', body: 'Achi lagti hai', id: 2},
         {title: 'Mera pet', body: 'Kharab hai', id: 3}
     ]);
-
-    return (
+    return(
         <div className="list">
-            {blogs.map((blog) => (
-                <div className="blog-preview" key={blog.id}> 
-                    <h2>{blog.title}</h2>
-                    <p>{blog.body}</p>
-                </div>
-            ))}
+            <h1>List</h1>
+            <ProsExample blogs={blogs}/>    
         </div>
     );
 }

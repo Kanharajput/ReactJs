@@ -21,6 +21,7 @@ function Home(){
 
     return (
         <div className="Home">
+            <h1>Home</h1>
             <button onClick={handleClick}>Click me</button>
             <button onClick={(e) => handleClickAgain("kanha",e)}>Hug me</button>
 
