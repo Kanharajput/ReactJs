@@ -77,3 +77,7 @@
 
 - Taking inputs from the user and save them in useState hooks
 - from the componenet send a post request to server to save the data in the file.
+
+- useNavigate to get back or forward on the path which we travelled. For going back use negative interger as
+    parameter inside navigate function and we can also pass the url directly. It's like redirect in django. 
+    with go back option via negative interger values
