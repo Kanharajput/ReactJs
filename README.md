@@ -72,3 +72,5 @@
 - Right now in react-router-dom version 6 race condition is automatically handled as it know seen here in this project.
 
 - useParams to pass dynamic urls like passing ids in the url and get back the id from that url
+
+- fetch a single blog data from the json server using id
