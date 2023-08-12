@@ -65,3 +65,6 @@
     Route exactly matches otherwise url in 
     browser (localhost/3000/create) will matches to (localhost/3000/) because "/create" is inside the "3000/" and also it 
     search in top to bottom in Routes.
+
+- Link : React also send normally request to server each time a user demands for a new page, but we can prevent it by using 
+    Link which is a react feature using which the react only checks the url and find out the needed in component in react bundle send by the server at the initial request and inject the component to the same with change in the url.

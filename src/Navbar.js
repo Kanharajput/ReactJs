@@ -1,3 +1,6 @@
+import Home from "./Home.js";
+import {Link} from "react-router-dom";
+
 function Navbar() {
     return (
         <div className="nav">
@@ -5,12 +8,12 @@ function Navbar() {
                 <h3>React Blog</h3>
             </div>
             <div className="links">
-                <a href='###'>Home</a>
-                <a href='###'>About</a>
-                <a href='###'>Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/list">List</Link>
+                <Link to="/create">Create</Link>
             </div>
         </div>
-    );
+    );  
 }
 
 export default Navbar;
