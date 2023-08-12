@@ -76,4 +76,4 @@
 - fetch a single blog data from the json server using id
 
 - Taking inputs from the user and save them in useState hooks
-- handle sup
+- from the componenet send a post request to server to save the data in the file.
