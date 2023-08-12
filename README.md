@@ -45,7 +45,7 @@
         pass useState variable name inside this [] so useEffect run when they triggered.
 
 - create data folder and db.json file to put data inside it and create a dummy server use this command "npx json-server
-    watch data/db.json --port 8000" now we will get the data from this dummy server.
+    --watch data/db.json --port 8000" now we will get the data from this dummy server.
 
 - get the data from the server using fetch method
 - Condition loading message when it takes more time to load data from the server, Here used setTimeout method to get extra time
@@ -54,3 +54,9 @@
 - Handling fetch the errors 
 
 - Create custom hooks, it's like putting everything in single file and then extract the things which we want in componene.
+
+-React doesn't have the routing functionality, it just send a single page and when use ask for a different url it just inject
+    the content of that page.
+    - To use routing feature, install react-router-dom. Import BrowserRouter, Route, Routes from this library. BrowserRouter
+        cover up all the components which means all component can use the BrowserRouter, Route declares a single route and 
+        Routes as name suggest covers all routes.
