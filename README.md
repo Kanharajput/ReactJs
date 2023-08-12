@@ -76,3 +76,4 @@
 - fetch a single blog data from the json server using id
 
 - Taking inputs from the user and save them in useState hooks
+- handle sup
