@@ -47,3 +47,7 @@ p{
   color: green;
   margin-left: 2rem;
 }
+
+.display-items a{
+  text-decoration: none;
+}

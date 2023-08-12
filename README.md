@@ -70,3 +70,5 @@
     Link which is a react feature using which the react only checks the url and find out the needed in component in react bundle send by the server at the initial request and inject the component to the same with change in the url.
 
 - Right now in react-router-dom version 6 race condition is automatically handled as it know seen here in this project.
+
+- useParams to pass dynamic urls like passing ids in the url and get back the id from that url

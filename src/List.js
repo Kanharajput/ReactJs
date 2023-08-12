@@ -1,5 +1,6 @@
-import ProsExample from './ProsExample'
+import ProsExample from './ProsExample';
 import useFetch from './useFetch';
+
 
 function List(){
     const { data:blogs, isPending, isResNotFound } = useFetch("http://localhost:8000/blogs")

@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import List from './List'
 import Create from './Create.js';
-import { useEffect } from 'react'
+import BlogDetail from './BlogDetail.js'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element = {<Home />} />
             <Route path="/list" element = {<List />} />
             <Route path="/create" element = {<Create />} />
+            <Route path="/blog-detail/:id" element = {<BlogDetail />} />
           </Routes>
         </div>
       </div>
