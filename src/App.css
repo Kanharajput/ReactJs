@@ -51,3 +51,22 @@ p{
 .display-items a{
   text-decoration: none;
 }
+
+.user-input{
+  width: 300px;
+  margin: 0 auto;
+}
+.user-input h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.user-input input{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.user-input textarea{
+  width: 100%;
+  margin-bottom: 1rem;
+}

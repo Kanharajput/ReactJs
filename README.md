@@ -74,3 +74,5 @@
 - useParams to pass dynamic urls like passing ids in the url and get back the id from that url
 
 - fetch a single blog data from the json server using id
+
+- Taking inputs from the user and save them in useState hooks
