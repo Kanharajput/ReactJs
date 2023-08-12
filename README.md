@@ -55,8 +55,13 @@
 
 - Create custom hooks, it's like putting everything in single file and then extract the things which we want in componene.
 
--React doesn't have the routing functionality, it just send a single page and when use ask for a different url it just inject
-    the content of that page.
+- React doesn't have the routing functionality, it just send a single page and when use ask for a different url it just
+    inject the content of that page.
     - To use routing feature, install react-router-dom. Import BrowserRouter, Route, Routes from this library. BrowserRouter
         cover up all the components which means all component can use the BrowserRouter, Route declares a single route and 
         Routes as name suggest covers all routes.
+
+- Happens in react-router-dom version 5 => Exact in react-router-dom. Pass exact in each Route so that it only run when the 
+    Route exactly matches otherwise url in 
+    browser (localhost/3000/create) will matches to (localhost/3000/) because "/create" is inside the "3000/" and also it 
+    search in top to bottom in Routes.
