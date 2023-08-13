@@ -81,3 +81,6 @@
 - useNavigate to get back or forward on the path which we travelled. For going back use negative interger as
     parameter inside navigate function and we can also pass the url directly. It's like redirect in django. 
     with go back option via negative interger values
+    
+- 404 error, when user request an undefined url. So simply create a 404 component and then Route path of that component 
+    should be * so that it will cought all the other Routes which are not mention above it.
